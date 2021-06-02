@@ -1,0 +1,46 @@
+.boxgr {
+    display: grid;
+    grid-template-columns:20px 1fr 1fr 20px;
+    grid-template-rows:  1fr 100px;
+    height: 200px;
+    grid-template-areas:
+    " . main  aside ."
+    ". footer footer .";
+        }
+
+
+main {grid-area: main;}
+aside {grid-area: aside;}
+footer{grid-area: footer;}
+
+.styling {
+    border-top: solid lightgray;
+    border-left: solid lightgray;
+    border-right: solid lightgray;
+    border-radius: 7px 7px 0px 0px;
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
+}
+
+.styling span {color: lightgrey;}
+
+.stylin {
+    border: solid lightgray;
+    border-radius: 0px 0px 7px 7px;
+    margin: 0px 5px 0px 5px;
+    padding: 10px;
+}
+
+.a {display: inline;
+font-size: 20px;
+}
+
+.b {
+    display: inline;
+    font-size: 20px;
+
+}
+.c {border: solid lightgreen;}
+
+
+.d {border: solid red;}
